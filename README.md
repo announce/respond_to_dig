@@ -31,13 +31,13 @@ Or install it yourself as:
 ```rb
 require 'respond_to_dig'
 
-h = RespondToDig::respond_to_dig({ foo: {bar: {baz: 1 }}})
+h = RespondToDig.invoke({ foo: {bar: {baz: 1 }}})
 h.dig(:foo, :bar, :baz)           #=> 1
 h.dig(:foo, :zot, :xyz)           #=> nil
 h.dig(:foo, :bar, :baz, :xyz)     #=> TypeError
 
-g = RespondToDig::respond_to_dig({ foo: [10, 11, 12] })
+g = RespondToDig.invoke({ foo: [10, 11, 12] })
 g.dig(:foo, 1)                    #=> 11
 ```
 
-For the details, refer [Module: RespondToDig — Documentation](http://www.rubydoc.info/gems/respond_to_dig/1.1.0/RespondToDig).
+For the details, refer [Module: RespondToDig — Documentation](http://www.rubydoc.info/gems/respond_to_dig/1.2.0/RespondToDig).
