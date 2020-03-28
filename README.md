@@ -40,4 +40,4 @@ g = RespondToDig.invoke({ foo: [10, 11, 12] })
 g.dig(:foo, 1)                    #=> 11
 ```
 
-For the details, refer [Module: RespondToDig — Documentation](http://www.rubydoc.info/gems/respond_to_dig/1.2.0/RespondToDig).
+For more details, refer to [Module: RespondToDig — Documentation](http://www.rubydoc.info/gems/respond_to_dig/1.2.0/RespondToDig).
